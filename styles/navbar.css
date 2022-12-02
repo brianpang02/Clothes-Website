@@ -1,0 +1,22 @@
+nav {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  right: 0;
+  height: 50px;
+  padding-left: 30px;
+  background-color: rgb(224, 224, 224);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  min-width: 500px;
+}
+
+nav div {
+  margin: 0px 40px 20px;
+  font-family: Playfair Display, serif;
+  font-weight: bold;
+  cursor: pointer;
+}
